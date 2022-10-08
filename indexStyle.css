@@ -1,3 +1,7 @@
+h1{
+    color: red;
+    font-family: 'Gemunu Lebre', sans-serif;
+}
 .container{
     display: flex;
     flex-wrap: wrap;
@@ -7,4 +11,5 @@
 img{
     width: 450px;
     height: 350px;
+    margin: 10px;
 }
