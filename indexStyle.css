@@ -1,10 +1,10 @@
 h1{
     color: #1C1018;
     font-family: 'Gemunu Libre', sans-serif;
-    border-bottom: 5px solid rgb(253, 49, 83);
-    border-right: 5px solid rgb(253, 49, 83);
+    border-bottom: 2px solid rgb(253, 49, 83);
+    border-right: 2px solid rgb(253, 49, 83);
     width: 350px;
-    border-style: groove;
+    box-shadow: 5px 5px 7px rgb(50,40,50);
 }
 .container{
     display: flex;
@@ -18,8 +18,8 @@ img{
     width: 450px;
     height: 350px;
     margin: 10px;
-    transition: 1s;
+    transition: all 1.5s;
 }
 img:hover{
-    transform   : scale(1.1);
+    transform: scale(1.1);
 }
